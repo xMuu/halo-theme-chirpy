@@ -2,20 +2,16 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: halo-theme-chirpy
-  annotations:
-    # Add supports for Halo App Store
-    # https://halo.run/store/apps/app-vGuQB
-    "store.halo.run/app-id": "app-vGuQB"
+  name: halo-theme-chirpy-xmuu
 spec:
-  displayName: Chirpy
+  displayName: Chirpy (定制版)
   author:
-    name: AirboZH
-    website: https://airbozh.cn
+    name: xMuu
+    website: https://xmuu.dev
   description: A minimal, responsive and feature-rich Halo theme for technical writing.
-  logo: https://chirpy-img.netlify.app/commons/avatar.jpg
-  website: https://github.com/AirboZH/halo-theme-chirpy
-  repo: https://github.com/AirboZH/halo-theme-chirpy.git
+  logo: https://xmuu.dev/upload/11795108.jpeg
+  website: https://github.com/xMuu/halo-theme-chirpy
+  repo: https://github.com/xMuu/halo-theme-chirpy.git
   settingName: "halo-theme-chirpy-setting"
   configMapName: "halo-theme-chirpy-configMap"
   version: 1.4.0
