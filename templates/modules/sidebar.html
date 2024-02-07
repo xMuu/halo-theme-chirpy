@@ -52,6 +52,17 @@
           </a>
         </li>
 
+        <th:block th:if="${pluginFinder.available('PluginSearchWidget')}">
+          <li class="nav-item">
+            <a 
+              class="nav-link" 
+              href="javascript:SearchWidget.open()" 
+              th:title="#{top_bar.search}">
+              <i class="fa-fw fas fa-search"></i>
+              <span>[[#{search}]]</span>
+            </a>
+          </li>
+        </th:block>
         <!-- .nav-item -->
       </ul>
     </nav>
