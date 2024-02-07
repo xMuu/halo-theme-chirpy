@@ -5,10 +5,10 @@
   xmlns:th="https://www.thymeleaf.org"
 >
   <th:block th:fragment="breadcrumb">
-    <span>[[#{breadcrumb.home}]]</span>
   </th:block>
 
   <th:block th:fragment="content">
+    <h2>最近文章</h2> 
     <div id="post-list" class="flex-grow-1 pe-xl-2">
       <article th:each="post : ${posts.items}" class="card-wrapper">
         <a
@@ -68,10 +68,5 @@
         </a>
       </article>
     </div>
-
-    <th:block
-      th:if="${posts.totalPages > 1}"
-      th:replace="~{modules/widgets/post-paginator :: paginator('',${posts})}"
-    />
   </th:block>
 </html>
