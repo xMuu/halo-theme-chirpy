@@ -1271,7 +1271,12 @@ search {
   }
 
   main {
-    min-height: calc(100vh - $topbar-height - $footer-height-large);
+    min-height: calc(100vh - $topbar-height-mobile - $footer-height-large);
+  }
+
+  #topbar-wrapper {
+    height: $topbar-height-mobile;
+    background-color: var(--topbar-bg);
   }
 
   footer {

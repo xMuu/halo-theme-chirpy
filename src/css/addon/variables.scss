@@ -9,7 +9,8 @@ $sidebar-width-large: 300px !default; /* screen width: >= 1650px */
 
 /* other framework sizes */
 
-$topbar-height: 3rem !default;
+$topbar-height: 0rem !default;
+$topbar-height-mobile: 3rem !default;
 $search-max-width: 200px !default;
 $footer-height: 5rem !default;
 $footer-height-large: 6rem !default; /* screen width: < 850px */
